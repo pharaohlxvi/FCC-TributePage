@@ -36,6 +36,10 @@ h1#title {
 #tribute-info {
   color: rgba(56, 32, 32, 0.466);
   padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }
 #headline {
   margin-top: 50px;
@@ -49,6 +53,13 @@ ul {
 }
 li {
   margin: 10px;
+}
+#img2 {
+  max-width: 200px;
+  height: auto;
+  margin: auto;
+  transform: rotate(180deg);
+  border: 5px solid white;
 }
 blockquote {
   font-style: italic;
